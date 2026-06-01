@@ -1,1 +1,1 @@
-# [CVPR2026 Workshop] Scenario for Normal Definition Changes in Anomaly Detection
+# [CVPR2026 Workshop] Novel Anomaly Detection Scenarios and Evaluation Metrics to Address the Ambiguity in the Definition of Normal Samples
