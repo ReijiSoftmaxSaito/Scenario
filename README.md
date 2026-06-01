@@ -1,2 +1,2 @@
 # [CVPR2026 Workshop] Novel Anomaly Detection Scenarios and Evaluation Metrics to Address the Ambiguity in the Definition of Normal Samples
-[PAPER][https://openaccess.thecvf.com/content/CVPR2026W/VAND/html/Saito_Novel_Anomaly_Detection_Scenarios_and_Evaluation_Metrics_to_Address_the_CVPRW_2026_paper.html]
+[PAPER](https://openaccess.thecvf.com/content/CVPR2026W/VAND/html/Saito_Novel_Anomaly_Detection_Scenarios_and_Evaluation_Metrics_to_Address_the_CVPRW_2026_paper.html)
