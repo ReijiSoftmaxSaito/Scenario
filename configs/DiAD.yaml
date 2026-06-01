@@ -1,0 +1,18 @@
+data :
+  input_size:
+    - 256
+    - 256
+  image_size: 256
+  BATCH_SIZE: 12
+  TEST_BATCH_SIZE: 1
+  NUM_EPOCHS: 1000
+  LOG_INTERVAL: 25
+  EVAL_INTERVAL: 25
+  CHECKPOINT_INTERVAL: 25
+
+model:
+  # feature_extractor: wide_resnet50_2
+  OPTIMIZER: AdamW
+  LR: 1e-5
+  WEIGHT_DECAY: 0
+  only_mid_control: True

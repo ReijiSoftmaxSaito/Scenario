@@ -1,0 +1,44 @@
+data :
+  anomaly_source_path: /mnt/data/dtd/images
+  input_size_train:
+    - 3
+    - 256
+    - 256
+  input_size:
+    - 256
+    - 256
+  image_size: 256
+  BATCH_SIZE: 8
+  TEST_BATCH_SIZE: 8
+  NUM_EPOCHS: 640
+  LOG_INTERVAL: 20
+  EVAL_INTERVAL: 20
+  CHECKPOINT_INTERVAL: 20
+
+  mean: 0.5
+  std: 0.1
+  fg: 1
+  rand_aug: 1
+
+model:
+  backbone_name: wideresnet50
+  # OPTIMIZER: AdamW
+  # LR: 1e-5
+  # WEIGHT_DECAY: 0
+  pretrain_embed_dimension: 1536
+  target_embed_dimension: 1536
+  patchsize: 3
+  dsc_layers: 2
+  dsc_hidden: 1024
+  pre_proj: 1
+  mining: 1
+  noise: 0.015
+  radius: 0.75
+  p: 0.5
+  step: 20
+  limit: 392
+  layers_to_extract_from: "layer2 layer3"
+  svd: 0 # 0:多様体仮説、1:超球仮説（default:0）
+
+
+

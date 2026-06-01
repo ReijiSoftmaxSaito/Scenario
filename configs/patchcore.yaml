@@ -1,0 +1,37 @@
+data:
+  input_size:
+    - 256
+    - 256
+  image_size: 256
+  BATCH_SIZE: 32      # 学習（Memory Bank構築）時の読み込みバッチサイズ
+  TEST_BATCH_SIZE: 8  # 推論時のバッチサイズ
+  NUM_EPOCHS: 1       # PatchCoreは1回で完了するため1でOK
+  LOG_INTERVAL: 1
+  EVAL_INTERVAL: 1
+  CHECKPOINT_INTERVAL: 1
+
+model:
+  # バックボーン設定
+  backbone_name: wideresnet50
+  # PatchCoreが特徴を抽出するレイヤー（WideResNet50ならlayer2とlayer3が一般的）
+  layers_to_extract_from: "layer2 layer3"
+  
+  # 特徴抽出の設定
+  pretrain_embed_dimension: 1024
+  target_embed_dimension: 1024
+  patchsize: 3
+  
+  # Coreset（メモリバンクの軽量化）設定
+  # 0.1 は全データの10%を保持することを意味します。メモリが足りない場合は小さくします。
+  coreset_sampling_ratio: 0.1
+  
+  # 異常スコア計算時の近傍点数
+  anomaly_scorer_num_nn: 1
+  
+  # NN検索（Faiss）の設定
+  faiss_on_gpu: False
+  faiss_num_workers: 8
+
+  # 他のモデルとの互換性のためのダミー値
+  LR: 1e-3
+  WEIGHT_DECAY: 1e-5

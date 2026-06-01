@@ -1,0 +1,17 @@
+data:
+  input_size:
+    - 256
+    - 256
+  image_size: 256
+  BATCH_SIZE: 8
+  TEST_BATCH_SIZE: 1
+  NUM_EPOCHS: 300
+  LOG_INTERVAL: 10
+  EVAL_INTERVAL: 10
+  CHECKPOINT_INTERVAL: 100
+
+model:
+  # backbone_name: wide_resnet50_2
+  LR_PROJ: 0.001
+  LR_DIST: 0.005
+  W_PROJ: 0.2

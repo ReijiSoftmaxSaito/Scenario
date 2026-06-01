@@ -1,0 +1,15 @@
+result/
+results/
+backbones/
+__pycache__/
+
+model/DiAD/
+model/Dinomaly/
+model/FastFlow/
+model/INP_Former/
+model/MambaAD/
+# model/PatchCore/
+model/RD4AD/
+model/RDplus2/
+# model/SimpleNet/
+model/UniNet/

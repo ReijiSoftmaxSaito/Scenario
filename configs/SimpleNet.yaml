@@ -1,0 +1,32 @@
+data :
+  anomaly_source_path: /mnt/HDD1/dataset/DTD/images
+  input_size_train:
+    - 3
+    - 256
+    - 256
+  input_size:
+    - 256
+    - 256
+  image_size: 256
+  BATCH_SIZE: 8
+  TEST_BATCH_SIZE: 8
+  NUM_EPOCHS: 40
+  LOG_INTERVAL: 2
+  EVAL_INTERVAL: 2
+  CHECKPOINT_INTERVAL: 2
+
+model:
+  backbone_name: wideresnet50
+  layers_to_extract_from: "layer2 layer3"
+  pretrain_embed_dimension: 1536
+  target_embed_dimension: 1536
+  embedding_size: 256
+  noise_std: 0.015
+  gan_epochs: 1
+  patchsize: 3
+  dsc_layers: 2
+  dsc_hidden: 1024
+  dsc_margin: .5
+  dsc_lr: 0.0002
+  pre_proj: 1
+  gan_epochs: 4
