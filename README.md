@@ -88,12 +88,24 @@ We generated 20 synthetic anomaly images for training and 20 for testing in each
             |-- zipper
 ```
 ### How to run
+train and test
 ```
 # A2N
 bash run/A2N.sh
 
 # N2A
 bash run/N2A.sh
+```
+How to calculate by S-AUROC
+```
+# patchcore
+bash run/PatchCore_test.sh
+
+# SimpleNet
+bash run/SimpleNet_test.sh
+
+# other
+bash run/test.sh
 ```
 
 ### Citation
