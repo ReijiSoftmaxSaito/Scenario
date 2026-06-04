@@ -6,7 +6,8 @@ Novel Anomaly Detection Scenarios and Evaluation Metrics to Address the Ambiguit
 
 <b>CVPR 2026 Workshop</b>
 
-Reiji Saito, Satoshi Kamiya, Kauzhiro Hotta
+[Reiji Saito](https://www.researchgate.net/scientific-contributions/Reiji-Saito-2306878039), Satoshi Kamiya, [Kazuhiro Hotta](https://wwwms.meijo-u.ac.jp/kazuhotta/) <br />
+Meijo University, 🍣JAPAN🍜
 </div>
 
 ## Install
@@ -45,7 +46,7 @@ fg_mask is the same as in GLASS. Please refer to the [GLASS implementation](http
 We generated synthetic anomalies using [AnomalyAny](https://github.com/EPFL-IMOS/AnomalyAny#-news) and [MemSeg](https://github.com/TooTouch/MemSeg). If there are better methods for generating synthetic anomalies, it would be preferable to use those instead.
 We generated 20 synthetic anomaly images for training and 20 for testing in each category. Similarly, we created corresponding synthetic anomaly masks, and produced ground-truth annotations for both the training and test synthetic anomalies.
 ```
-|-- mvtec
+|-- mvtec_N2A
     |-- bottle
         |-- train
             |-- good
