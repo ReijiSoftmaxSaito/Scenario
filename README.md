@@ -95,3 +95,19 @@ bash run/A2N.sh
 # N2A
 bash run/N2A.sh
 ```
+
+### Citation
+Please cite the following paper if the code helps your project.
+```
+@InProceedings{Saito_2026_CVPR,
+    author    = {Saito, Reiji and Kamiya, Satoshi and Hotta, Kazuhiro},
+    title     = {Novel Anomaly Detection Scenarios and Evaluation Metrics to Address the Ambiguity in the Definition of Normal Samples},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2026},
+    pages     = {7742-7751}
+}
+```
+
+### TODO
+We will gradually release any code that can be made publicly available.
