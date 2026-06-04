@@ -7,16 +7,16 @@ Novel Anomaly Detection Scenarios and Evaluation Metrics to Address the Ambiguit
 <b>CVPR 2026 Workshop</b>
 Reiji Saito, Satoshi Kamiya, Kauzhiro Hotta
 
+<br><br>
+
 </div>
 
 ## Install
 
 Create a new conda environment and install required packages.
-
+(This procedure is for GLASS and RePaste. For other methods, please refer to the original configurations and implementations.)
 ```
-conda create -n INP python=3.8.12
-conda activate INP
+conda create -n RePaste python=3.9
+conda activate RePaste
 pip install -r requirements.txt
-pip install gradio # Optional, for Zero Shot App
-pip install onnx==1.15.0 onnxruntime-gpu==1.15.0 onnxsim # for export onnx file
 ```
