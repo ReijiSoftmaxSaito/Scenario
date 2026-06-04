@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # CUDA_VISIBLE_DEVICES=1
-path_A2N=/mnt/HDD1/dataset/MVtec_AD
-path_N2A=/mnt/HDD1/dataset/MVtec_AD_N2A_NEW/
+path_A2N=/mnt/HDD1/dataset/mvtec
+path_N2A=/mnt/HDD1/dataset/mvtec_N2A/
 method=DiAD # [fastflow, mambaAD, INP_Former, RDplus2, UniNet, DiAD, Dinomaly, RD4AD]
 result=$method
 
