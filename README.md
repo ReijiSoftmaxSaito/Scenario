@@ -5,16 +5,18 @@ Novel Anomaly Detection Scenarios and Evaluation Metrics to Address the Ambiguit
 </h2>
 
 <b>CVPR 2026 Workshop</b>
-
-<br><br>
-
-<a href="https://openaccess.thecvf.com/content/CVPR2026W/VAND/html/Saito_Novel_Anomaly_Detection_Scenarios_and_Evaluation_Metrics_to_Address_the_CVPRW_2026_paper.html">
-📄 Paper
-</a>
+Reiji Saito, Satoshi Kamiya, Kauzhiro Hotta
 
 </div>
 
-### Install
-conda create -n RePaste python=3.9 -y 
-conda activate RePaste 
+## Install
+
+Create a new conda environment and install required packages.
+
+```
+conda create -n INP python=3.8.12
+conda activate INP
 pip install -r requirements.txt
+pip install gradio # Optional, for Zero Shot App
+pip install onnx==1.15.0 onnxruntime-gpu==1.15.0 onnxsim # for export onnx file
+```
