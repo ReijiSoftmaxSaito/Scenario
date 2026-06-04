@@ -1,6 +1,6 @@
 # CUDA_VISIBLE_DEVICES=1
 
-path=/mnt/HDD1/dataset/MVtec_AD_N2A_NEW/
+path=/mnt/HDD1/dataset/mvtec_N2A/
 
 method=patchcore 
 # [fastflow, mambaAD, INP_Former, RDplus2,
@@ -26,8 +26,8 @@ categories=(
     zipper
 )
 scenario_type=(
-    N2A
-    N2A_Normal
+    N2A # N2A sub-scenario
+    N2A_Normal # Standard sub-scenario
 )
 
 case $method in
@@ -68,7 +68,7 @@ done
 
 
 for sce in "${scenario_type[@]}"; do
-echo "=== N2A ==="
+echo "=== N2A (N2A and Standard) ==="
 python show_data_scenario.py \
     --scenario "$method" \
     --scenario_type "$sce" \
