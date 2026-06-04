@@ -20,14 +20,15 @@ conda activate RePaste
 pip install -r requirements.txt
 ```
 
-### Download dataset
+## Download dataset
 
 Download the MVTec-AD dataset from [URL](https://www.mvtec.com/company/research/datasets/mvtec-ad).
 Unzip the file to `../mvtec`.
 
 fg_mask is the same as in GLASS. Please refer to the [GLASS implementation](https://github.com/cqylunlun/glass).
 
-### A2N setting
+## A2N setting
+
 ```
 |-- mvtec
     |-- bottle
@@ -42,7 +43,8 @@ fg_mask is the same as in GLASS. Please refer to the [GLASS implementation](http
             |-- ....
             |-- zipper
 ```
-### N2A setting
+## N2A setting
+
 We generated synthetic anomalies using [AnomalyAny](https://github.com/EPFL-IMOS/AnomalyAny#-news) and [MemSeg](https://github.com/TooTouch/MemSeg). If there are better methods for generating synthetic anomalies, it would be preferable to use those instead.
 We generated 20 synthetic anomaly images for training and 20 for testing in each category. Similarly, we created corresponding synthetic anomaly masks, and produced ground-truth annotations for both the training and test synthetic anomalies.
 ```
@@ -88,7 +90,8 @@ We generated 20 synthetic anomaly images for training and 20 for testing in each
             |-- ....
             |-- zipper
 ```
-### How to run
+## How to run
+
 train and test
 ```
 # A2N
@@ -109,7 +112,8 @@ bash run/SimpleNet_test.sh
 bash run/test.sh
 ```
 
-### Citation
+## Citation
+
 Please cite the following paper if the code helps your project.
 ```
 @InProceedings{Saito_2026_CVPR,
