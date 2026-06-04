@@ -18,3 +18,16 @@ conda create -n RePaste python=3.9
 conda activate RePaste
 pip install -r requirements.txt
 ```
+
+### MVTec AD
+
+Download the MVTec-AD dataset from [URL](https://www.mvtec.com/company/research/datasets/mvtec-ad).
+Unzip the file to `../mvtec`.
+```
+|-- mvtec
+    |-- bottle
+    |-- cable
+    |-- capsule
+    |-- ....
+```
+
