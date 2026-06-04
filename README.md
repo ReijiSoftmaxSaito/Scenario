@@ -5,10 +5,9 @@ Novel Anomaly Detection Scenarios and Evaluation Metrics to Address the Ambiguit
 </h2>
 
 <b>CVPR 2026 Workshop</b>
-Reiji Saito, Satoshi Kamiya, Kauzhiro Hotta
 
 <br><br>
-
+Reiji Saito, Satoshi Kamiya, Kauzhiro Hotta
 </div>
 
 ## Install
