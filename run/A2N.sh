@@ -19,8 +19,8 @@ categories=(
 )
 
 scenario_type=(
-    A2N
-    A2N_Normal
+    A2N # A2N sub-scenario
+    A2N_Normal # Standard sub-scenario
 )
 
 case $method in
@@ -69,7 +69,7 @@ python show_data_scenario.py \
     --output "_result_A2N_A2N.csv" \
     --mean
 
-echo "=== A2N Normal ==="
+echo "=== A2N Standard ==="
 
 python show_data_scenario_A2N_Normal.py \
     --method "$method" \
