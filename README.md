@@ -8,7 +8,7 @@ Novel Anomaly Detection Scenarios and Evaluation Metrics to Address the Ambiguit
 
 [Reiji Saito](https://www.researchgate.net/scientific-contributions/Reiji-Saito-2306878039), Satoshi Kamiya, [Kazuhiro Hotta](https://wwwms.meijo-u.ac.jp/kazuhotta/) <br />
 Meijo University, 🍣JAPAN🍜
-<img src="CVPR_VAND7.png" width="800">
+<img src="[CVPR_VAND7.png](https://github.com/ReijiSoftmaxSaito/Scenario/releases/download/Poster/CVPR2026_VAND7.png)" width="800">
 </div>
 
 ## Install
