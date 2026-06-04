@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 ## Download dataset
 
-Download the MVTec-AD dataset from [URL](https://www.mvtec.com/company/research/datasets/mvtec-ad).
+Download the [MVTec-AD](https://www.mvtec.com/company/research/datasets/mvtec-ad).
 Unzip the file to `../mvtec`.
 
 fg_mask is the same as in GLASS. Please refer to the [GLASS implementation](https://github.com/cqylunlun/glass).
